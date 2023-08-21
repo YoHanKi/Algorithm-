@@ -1,4 +1,4 @@
-package chap04;
+package chap05;
 // int형 고정 길이 스택
 public class IntStack {
 
@@ -78,7 +78,7 @@ public class IntStack {
 			System.out.println("스택이 비어있습니다.");
 		else {
 			for (int i = 0; i < ptr ; i++)
-				System.out.print(stk[i] + "");
+				System.out.print(stk[i] + " ");
 			System.out.println();
 		}
 	}
